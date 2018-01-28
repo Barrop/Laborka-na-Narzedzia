@@ -3,10 +3,10 @@
     
     cout << "Podaj A: ";
     cin >> a;
-    endl;
+    cout << endl;
     cout << "Podaj B: ";
     cin >> b;
-    endl;
+    cout << endl;
     cout << "Suma: " << (a + b) << endl;
     
     getchar();getchar();
