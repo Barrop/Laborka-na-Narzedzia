@@ -19,5 +19,5 @@ int main()
     }
     else if (decyzja == 'dzielenie")
         dzielenie(a, b);
-    return 0;
+    return 1;
 }
