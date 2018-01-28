@@ -2,8 +2,6 @@
 
 using namespace std;
 
-int main()
-{
-    cout << "Kalkulator" << endl;
+
     return 0;
 }
