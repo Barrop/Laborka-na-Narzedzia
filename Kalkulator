@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int a,b,;
+int a,b;
 
 cout << "Wprowadź A: ";
 cin >> a;
@@ -15,4 +15,3 @@ endl;
 cout << "Suma: " << (a + b);
    
    return 0;
-
