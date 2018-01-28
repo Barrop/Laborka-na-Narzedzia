@@ -2,6 +2,7 @@
 
 using namespace std;
 
+int dodawanie(){
 int a,b;
 
 cout << "Wprowadź A: ";
@@ -15,3 +16,4 @@ endl;
 cout << "Suma: " << (a + b);
    
    return 0;
+}
