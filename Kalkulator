@@ -1,5 +1,5 @@
     setlocale(LC_ALL, "");
-    in a,b;
+    float a,b;
     
     cout << "Podaj A: ";
     cin >> a;
