@@ -7,7 +7,7 @@
     cout << "Podaj B: ";
     cin >> b;
     endl;
-    cout << "Suma: " << (a + +) << endl;
+    cout << "Suma: " << (a + b) << endl;
     
     getchar();getchar();
     return 0;
