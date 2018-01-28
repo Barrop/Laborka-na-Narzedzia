@@ -6,14 +6,14 @@ int main()
 {
     setlocale(LC_ALL, "");
     float a, b;
-    cout << "Podaj A: ";
+    cout << "Podaj A: " << endl;
     cin >> a;
-    cout << "Podaj B: ";
+    cout << "Podaj B: " << endl;
     cin >> b;
 
     if (b == 0)
 		{
-			cout << "Nie wolno dzielić przez zero!";
+			cout << "Nie wolno dzielić przez zero!" << endl;
 		}
     else
 		{
