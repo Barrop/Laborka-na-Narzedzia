@@ -10,8 +10,7 @@ int main()
     cout << "Jakie działanie chcesz wykonać?" << endl;
     cin >> decyzja;
     if (decyzja == "dodawanie")
-    {
-    }
+        dodawanie(a, b);
     else if (decyzja == "odejmowanie")
     {
     }
@@ -19,7 +18,6 @@ int main()
     {
     }
     else if (decyzja == 'dzielenie")
-    {
-    }
+        dzielenie(a, b);
     return 0;
 }
