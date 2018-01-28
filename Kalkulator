@@ -2,6 +2,17 @@
 
 using namespace std;
 
+int a,b,;
 
-    return 0;
-}
+cout << "Wprowadź A: ";
+cin >> a;
+endl;
+
+cout << "Wprowadź B: ";
+cin >> b;
+endl;
+
+cout << "Suma: " << (a + b);
+   
+   return 0;
+
