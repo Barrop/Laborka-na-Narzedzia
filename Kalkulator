@@ -15,7 +15,7 @@ int main()
 		{
 			cout << "Nie wolno dzielić przez zero!";
 		}
-		else
+    else
 		{
 			cout << "Iloraz: " << (a / b) << endl;
 		}
