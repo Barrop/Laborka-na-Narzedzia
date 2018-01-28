@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int dodawanie(){
-int a,b;
+int dodawanie(int a, int b){
 
 cout << "Wprowadź A: ";
 cin >> a;
