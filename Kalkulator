@@ -1,21 +1,13 @@
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
     setlocale(LC_ALL, "");
-    char decyzja;
-    int a, b;
-    cout << "Jakie działanie chcesz wykonać?" << endl;
-    cin >> decyzja;
-    if (decyzja == "dodawanie")
-        dodawanie(a, b);
-    else if (decyzja == "odejmowanie")
-        dzielenie(a, b)
-    else if (decyzja == "mnozenie")
-        mnozenie(a, b);
-    else if (decyzja == 'dzielenie")
-        dzielenie(a, b);
+    in a,b;
+    
+    cout << "Podaj A: ";
+    cin >> a;
+    endl;
+    cout << "Podaj B: ";
+    cin >> b;
+    endl;
+    cout << "Suma: " << (a + +) << endl;
+    
+    getchar();getchar();
     return 0;
-}
