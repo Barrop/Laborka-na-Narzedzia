@@ -2,26 +2,11 @@
 
 using namespace std;
 
-int main()
+int dzielenie(int a, int b)
 {
-    setlocale(LC_ALL, "");
-    float a, b;
-    
-    cout << "Wprowadź A: ";
-		cin >> a;
-  	cout << "Wprowadź B: ";
-		cin >> b;
-
-		if (b == 0)
-		{
-			cout << "Nie wolno dzielić przez zero!" << endl;
-		}
-		else
-		{
-			cout << "Iloraz: " << (a / b) << endl;
-		}
-    getchar();
-		getchar();
-	
-	return 0;
+	float a, b;	
+	if (b == 0)
+		cout << "Nie wolno dzielić przez zero!" << endl;
+	else
+		cout << "Iloraz: " << (a / b) << endl;
 }
