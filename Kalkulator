@@ -5,17 +5,19 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "");
-    char decyzja;
-    int a, b;
-    cout << "Jakie działanie chcesz wykonać?" << endl;
-    cin >> decyzja;
-    if (decyzja == "dodawanie")
-        dodawanie(a, b);
-    else if (decyzja == "odejmowanie")
-        dzielenie(a, b)
-    else if (decyzja == "mnozenie")
-        mnozenie(a, b);
-    else if (decyzja == 'dzielenie")
-        dzielenie(a, b);
+    float a, b;
+    cout << "Podaj A: ";
+    cin >> a;
+    cout << "Podaj B: ";
+    cin >> b;
+
+    if (b == 0)
+		{
+			cout << "Nie wolno dzielić przez zero!";
+		}
+		else
+		{
+			cout << "Iloraz: " << (a / b) << endl;
+		}
     return 0;
 }
