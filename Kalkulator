@@ -12,11 +12,9 @@ int main()
     if (decyzja == "dodawanie")
         dodawanie(a, b);
     else if (decyzja == "odejmowanie")
-    {
-    }
+        dzielenie(a, b)
     else if (decyzja == "mnozenie")
-    {
-    }
+        mnozenie(a, b);
     else if (decyzja == 'dzielenie")
         dzielenie(a, b);
     return 0;
