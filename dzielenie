@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "");
+    float a, b;
+    
+    cout << "Wprowadź A: ";
+		cin >> a;
+  	cout << "Wprowadź B: ";
+		cin >> b;
+
+		if (b == 0)
+		{
+			cout << "Nie wolno dzielić przez zero!" << endl;
+		}
+		else
+		{
+			cout << "Iloraz: " << (a / b) << endl;
+		}
+    getchar();
+		getchar();
+	
+	return 0;
+}
