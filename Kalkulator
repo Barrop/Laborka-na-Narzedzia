@@ -1,13 +1,13 @@
     setlocale(LC_ALL, "");
-    in a,b;
+    float a,b;
     
     cout << "Podaj A: ";
     cin >> a;
-    endl;
+    cout<<endl;
     cout << "Podaj B: ";
     cin >> b;
-    endl;
-    cout << "Suma: " << (a + +) << endl;
+    cout<<endl;
+    cout << "Różnica: " << (a - b) << endl;
     
     getchar();getchar();
     return 0;
