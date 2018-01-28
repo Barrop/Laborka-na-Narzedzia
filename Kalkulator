@@ -12,7 +12,13 @@ int main()
     if (decyzja == "dodawanie")
     {
     }
-    else if (decyzja == "odejmowanie)
+    else if (decyzja == "odejmowanie")
+    {
+    }
+    else if (decyzja == "mnozenie")
+    {
+    }
+    else if (decyzja == 'dzielenie")
     {
     }
     return 0;
