@@ -12,12 +12,15 @@ int main()
     if (decyzja == "dodawanie")
         dodawanie(a, b);
     else if (decyzja == "odejmowanie")
-    {
-    }
+        dzielenie(a, b)
     else if (decyzja == "mnozenie")
-    {
-    }
+        mnozenie(a, b);
     else if (decyzja == 'dzielenie")
         dzielenie(a, b);
+<<<<<<< HEAD
     return 2;
+=======
+    return 0;
+//Działa chyba XD
+>>>>>>> origin/master
 }
