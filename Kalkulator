@@ -6,17 +6,17 @@ int main()
 {
     setlocale(LC_ALL, "");
     char decyzja;
-    int a, b;
+    int c, d;
     cout << "Jakie działanie chcesz wykonać?" << endl;
     cin >> decyzja;
     if (decyzja == "dodawanie")
-        dodawanie(a, b);
+        dodawanie(c, d);
     else if (decyzja == "odejmowanie")
-        dzielenie(a, b)
+        dzielenie(c, d)
     else if (decyzja == "mnozenie")
-        mnozenie(a, b);
+        mnozenie(c, d);
     else if (decyzja == 'dzielenie")
-        dzielenie(a, b);
-    return 0;
+        dzielenie(c, d);
+    return 1;
 
 }
