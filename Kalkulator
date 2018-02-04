@@ -8,7 +8,7 @@ int main()
     float a, b;
     cout << "Podaj A: " << endl; // zmienna A
     cin >> a;
-    cout << "Podaj B: " << endl;
+    cout << "Podaj B: " << endl; // zmienna B
     cin >> b;
 
     if (b == 0)
