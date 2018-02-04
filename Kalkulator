@@ -13,7 +13,7 @@ int main()
 
     if (b == 0)
 		{
-			cout << "Nie wolno dzielić przez zero!" << endl;
+			cout << "Nie wolno dzielić przez zero!" << endl; // Warunek
 		}
     else
 		{
