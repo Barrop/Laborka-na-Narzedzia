@@ -6,7 +6,7 @@ int main()
 {
     setlocale(LC_ALL, "");
     float a, b;
-    cout << "Podaj A: " << endl;
+    cout << "Podaj A: " << endl; // zmienna A
     cin >> a;
     cout << "Podaj B: " << endl;
     cin >> b;
