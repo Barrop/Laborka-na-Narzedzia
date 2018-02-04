@@ -17,7 +17,7 @@ int main()
 		}
     else
 		{
-			cout << "Iloraz: " << (a / b) << endl;
+			cout << "Iloraz: " << (a / b) << endl; // Iloraz
 		}
     return 0;
 }
