@@ -15,6 +15,8 @@ int main()
         dzielenie(c, d);
     else if (decyzja == "mnozenie")
         mnozenie(c, d);
+    else if (decyzja == "dzielenie")
+        mnozenie(c, d);
     return 1;
 
 }
