@@ -5,14 +5,14 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "");
-    char decyzja;
+    char fold;
     int c, d;
     cout << "Jakie działanie chcesz wykonać?" << endl;
     cin >> decyzja;
     if (decyzja == "dodawanie")
-        dodawanie(c, d);
+        dodawanie(c, e);
     else if (decyzja == "odejmowanie")
-        dzielenie(c, d);
+        dzielenie(e, d);
     else if (decyzja == "mnozenie")
         mnozenie(c, d);
     else if (decyzja == "dzielenie")
